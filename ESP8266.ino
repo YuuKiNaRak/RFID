@@ -12,9 +12,9 @@ MFRC522 rfid(SS_PIN, RST_PIN); // Instance of the class
 MFRC522::MIFARE_Key key;
 String tag;
 
-// Replace with your network credentials
-const char* ssid = "778899";
-const char* password = "yuukinarak";
+// Replace with your network credential
+const char* ssid = "EDIT HERE"; //wifi name
+const char* password = "EDIT HERE";//password wifi
 
 
 
